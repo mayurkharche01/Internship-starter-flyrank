@@ -1,0 +1,12 @@
+{
+  "lane": "Refresh / Content Opportunity Scoring",
+  "validation_scope": "30,000-row anonymized starter slice",
+  "validation_design": "client-holdout",
+  "baseline_precision_at_50": 0.24,
+  "logistic_regression_precision_at_50": 0.4,
+  "decision_tree_precision_at_50": 0.54,
+  "random_forest_precision_at_50": 0.74,
+  "random_forest_roc_auc": 0.75,
+  "random_forest_average_precision": 0.618,
+  "interpretation": "The random forest produced the strongest Precision@50 among the evaluated starter methods. This supports ranking usefulness on the evaluated slice, not guaranteed refresh outcomes."
+}
