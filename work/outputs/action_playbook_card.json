@@ -1,0 +1,27 @@
+{
+  "project": "Content Action Playbook",
+  "lane": "Refresh / Content Opportunity Scoring",
+  "purpose": "Prioritize pages for human review",
+  "output": "Ranked review queue with suggested actions and reason codes",
+  "best_validated_model": "Random forest",
+  "validated_precision_at_50": 0.74,
+  "validated_roc_auc": 0.75,
+  "validated_average_precision": 0.618,
+  "validation_scope": "30,000-row anonymized starter slice",
+  "validation_design": "client-holdout",
+  "intended_use": [
+    "prioritize review candidates",
+    "surface observable content-performance signals",
+    "support limited review capacity"
+  ],
+  "not_intended_for": [
+    "automatic publishing",
+    "automatic deletion",
+    "automatic merging",
+    "causal claims",
+    "search-engine algorithm claims",
+    "client-facing decisions without human review"
+  ],
+  "human_review_required": true,
+  "retrain_policy": "Investigate material input/score/action drift or deteriorating future Precision@K before retraining and revalidating."
+}
