@@ -5,10 +5,6 @@
 - **Repo:** https://github.com/mayurkharche01/Internship-starter-flyrank
 - **Date:** September 2026
 
-> Copy this file to `work/capstone_report.md` and fill it in as you build. Sections 1–8
-> mirror the Pass / Needs-Work rubric axes, so nothing here is optional. Sections 0 and 9
-> are **paper sections**: your deployed research paper must carry both, and they're here so
-> you never rebuild them from memory at ship time.
 
 ## 0. Abstract
 
